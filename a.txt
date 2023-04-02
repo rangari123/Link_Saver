@@ -1,0 +1,31 @@
+// Log out the items in the myLeads array using a for loop 
+// 2.Grab the unordered list and store it in a const variable called ulEl
+//3. Render the leads in the unordered list using ulEl.textContent ans innerHtml
+const container = document.getElementById("container")
+
+-- innerHTML property and ading eleement
+container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+
+// When clicked, render a paragraph under the button (in the container)
+// that says "Thank you for buying!"
+function buy(){
+    3
+    container.innerHTML+= "<p>"+"Thank you for buying!"+"</p"
+    // create element    -let li = document.createElement("li);
+    // set text content - li.textContent = 'hello'
+    // append to ul    - ulEl.append(li)
+
+    5
+  // Wrap the lead in an anchor tag (<a>) inside the <li>
+        // Can you make the link open in a new tab?
+  // "<li><a href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
+   template strings
+     listItems += `
+            <li>
+                <a target='_blank' href='${myLeads[i]}'>
+                    ${myLeads[i]}
+                </a>
+            </li>
+        `
+    
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 400px;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 230, 178);
+  
+ 
+  padding: 20px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  width: auto;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid green;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(215, 240, 251);
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  background-color: forestgreen;
+  /* background-color: #0EA293; */
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 5px;
+ 
+  border: 2px solid rgb(220, 223, 227);
+  border-radius: 5px;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0.5px #666;
+  transform: translateY(10px);
+}
+
+#delete-btn{
+  background-color: #fff;
+  color: forestgreen;
+  margin-left: 5px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  margin-top: 20px;
+}
+ul li {
+  margin-left: 5px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 5px;
+}
+li a {
+  color: darkgreen;
+  
+  
+}
